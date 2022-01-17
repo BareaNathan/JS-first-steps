@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var num = 0;
+	
+	while(num <= 100){
+		mostra(num + " é um número par");
+		num = num + 2;
+	}
+	
+	motra("FIM");
+</script>
